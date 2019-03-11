@@ -1,0 +1,10 @@
+package com.board.web.repository;
+
+import com.board.web.domain.Board;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface BoardRepository extends JpaRepository<Board,Long> {
+
+}
